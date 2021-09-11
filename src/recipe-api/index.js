@@ -1,6 +1,9 @@
-const server = require('fastify')();
+import 'fastify';
+import fastify from 'fastify';
 const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || 4000;
+
+let server = new fastify();
 
 console.log(`worker pid=${process.pid}`);
 

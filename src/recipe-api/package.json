@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.21.0"
+    "fastify": "^3.21.0",
+    "fastify-gql": "^5.8.2",
+    "graphql": "^15.5.3",
+    "mercurius": "^8.2.1"
   }
 }
